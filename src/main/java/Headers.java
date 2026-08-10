@@ -1,6 +1,6 @@
 public class Headers {
 
-    private static final String[] ASCII_HEADING = {
+    public static final String[] ASCII_HEADING = {
             "  ____      _            _       _             ",
             " / ___|__ _| | ___ _   _| | __ _| |_ ___  _ __ ",
             "| |   / _` | |/ __| | | | |/ _` | __/ _ \\| '__|",
@@ -8,7 +8,7 @@ public class Headers {
             " \\____\\__,_|_|\\___|\\__,_|_|\\__,_|\\__\\___/|_|   "
     };
 
-    private static final String[] ADD_HEADING = {
+    public static final String[] ADD_HEADING = {
             " ______         __        __ ",
             " /      \\       /  |      /  |",
             "/$$$$$$  |  ____$$ |  ____$$ |",
@@ -24,7 +24,7 @@ public class Headers {
     };
 
 
-    private static final String[] MULTIPLY_HEADING = {
+    public static final String[] MULTIPLY_HEADING = {
             " __       __            __    __      __            __                 ",
             "/  \\     /  |          /  |  /  |    /  |          /  |                ",
             "$$  \\   /$$ | __    __ $$ | _$$ |_   $$/   ______  $$ | __    __       ",
@@ -39,7 +39,7 @@ public class Headers {
             "                                         $$/            $$$$$$/        "
     };
 
-    private static final String[] SUBTRACTION_HEADING = {
+    public static final String[] SUBTRACTION_HEADING = {
             " ______             __          __                                     __      __                     ",
             " /      \\           /  |        /  |                                   /  |    /  |                    ",
             "/$$$$$$  | __    __ $$ |____   _$$ |_     ______   ______    _______  _$$ |_   $$/   ______   _______  ",
@@ -57,7 +57,7 @@ public class Headers {
 
     };
 
-    private static final String[] DIVISION_HEADING = {
+    public static final String[] DIVISION_HEADING = {
             " _______   __             __            __                     ",
             "/       \\ /  |           /  |          /  |                    ",
             "$$$$$$$  |$$/  __     __ $$/   _______ $$/   ______   _______  ",
